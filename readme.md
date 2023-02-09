@@ -2,7 +2,7 @@
 
 ## Infra
 
-- Banco Postgres
+- Banco Postgres / SQLite
 
 ## Endpoints
 
@@ -58,7 +58,7 @@ GET /clients/{client-id}/transactions/download
 - Armazenar saldo
 - Api deve ter paginação e filtros
 - Endpoint para gerar arquivo CSV com lançamentos
-- Endpoint para fazer download dessa solicitação :heavy_check_mark:
+- Endpoint para fazer download dessa solicitação
 - Endpoint para upload de arquivos para adicionar lançamentos
 - Registros stateless, lançamento é unico de acordo com a data, descrição, tipo e valor
 
